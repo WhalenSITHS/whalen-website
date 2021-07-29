@@ -61,11 +61,14 @@ header {
   transition: all 0.3s;
 }
 .header-btn:hover {
-  border: 1px solid clear;
+  border: 1px solid transparent;
   background-color: var(--background-primary);
   cursor: pointer;
   color: var(--header-btn);
+  transform: translate(-50%, -60%);
+  box-shadow: var(--level-2-white);
 }
+
 .header-btn-link,
 .header-btn-link:visited,
 .header-btn-link:link {
