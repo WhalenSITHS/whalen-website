@@ -105,6 +105,8 @@ body {
   cursor: pointer;
   background-color: var(--white);
   color: var(--black);
+  transform: translateY(-4px);
+  box-shadow: var(--level-2-white);
 }
 @media screen and (max-width: 1280px) {
   .card-resource {
