@@ -71,7 +71,7 @@ body {
   color: #fff;
   margin: 8rem auto auto auto;
   text-align: center;
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: var(--card-background);
 
   transition: all 0.3s;
 }
