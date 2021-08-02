@@ -139,9 +139,9 @@ body {
 }
 
 .light-mode {
-  --background-primary: #fff;
+  --background-primary: var(--off-white);
   --skill-background: var(--black);
-  --card-background: var(--black);
+  --card-background: var(--light-black);
   --card-text: var(--white);
   --background-secondary: var(--dark-grey);
   --text-primary: var(--black);
@@ -154,9 +154,9 @@ body {
   --footer-icon: var(--light-black);
 }
 .dark-mode {
-  --background-primary: var(--light-black);
-  --skill-background: var(--black);
-  --card-background: var(--black);
+  --background-primary: var(--black);
+  --skill-background: var(--light-black);
+  --card-background: var(--light-black);
   --card-text: var(--white);
   --background-secondary: var(--dark-grey);
   --text-primary: var(--white);

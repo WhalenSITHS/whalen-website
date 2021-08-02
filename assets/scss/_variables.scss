@@ -1,15 +1,16 @@
 :root {
   /* Define Colors as colors */
-  --black: #000;
-  --light-black: #222;
+  --black: #131313;
+  --light-black: #232323;
   --white: #fff;
+  --off-white: #f0f1f6;
   --dark-grey: #1a2f41;
   --grey: #252c30;
   --lightGrey: #f2f4f6;
   /* Define Colors intentions */
   --background-primary: var(--light-black);
   --skill-background: var(--black);
-  --card-background: var(--black);
+  --card-background: var(--light-black);
   --card-text: var(--white);
   --background-secondary: var(--dark-grey);
   --text-primary: var(--white);
