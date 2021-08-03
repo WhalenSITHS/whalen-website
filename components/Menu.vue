@@ -98,7 +98,7 @@ export default {
   top: 0;
 }
 .nav {
-  background-color: #111;
+  background-color: var(--text-secondary);
   z-index: 1000;
   transition: transform 0.8s;
   display: flex;
