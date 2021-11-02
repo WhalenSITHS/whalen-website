@@ -3,7 +3,7 @@
     <h1 class="mockup-header">Bone Apple Teeth</h1>
     <video autoplay muted loop playsinline class="mockup-video">
       <source
-        src="https://res.cloudinary.com/dbopxlpuy/video/upload/c_scale,f_auto,w_1200/v1622854760/Richard/BAT1Translucent_xcbobc.mov"
+        src="https://res.cloudinary.com/dbopxlpuy/video/upload/c_scale,f_auto,q_auto,w_1200/v1628527026/Richard/BAT_1_tosuz1.mov"
       />
     </video>
     <div class="author-banner">
