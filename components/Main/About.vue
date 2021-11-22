@@ -100,6 +100,9 @@ export default {}
   margin-top: 10%;
 }
 @include laptop {
+  .about {
+    height: 99vh;
+  }
   .about-card {
     height: 65vh;
   }
