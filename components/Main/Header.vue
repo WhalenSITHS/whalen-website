@@ -1,9 +1,17 @@
 <template>
   <header>
     <div class="heading">
-      <h1>Michael Whalen</h1>
-      <h4>Full-Stack Educator</h4>
-      <h4>Staten Island Technical High School</h4>
+      <div class="overlay"></div>
+      <img
+        class="heading-img"
+        src="https://res.cloudinary.com/dbopxlpuy/image/upload/o_100/v1611365531/Bao/test_c6zrj6.png"
+        alt=""
+      />
+      <div class="heading-box">
+        <h1>Michael Whalen</h1>
+        <h4>Full-Stack Educator</h4>
+        <h4>Staten Island Technical High School</h4>
+      </div>
     </div>
     <button class="header-btn btn">
       <nuxt-link to="StudentWork" class="header-btn-link"
@@ -20,12 +28,7 @@ export default {}
 <style lang="scss">
 header {
   height: 100vh;
-  background-image: linear-gradient(
-      to right,
-      rgba(0, 0, 0, 0.6),
-      rgba(0, 0, 0, 0.6)
-    ),
-    url('https://res.cloudinary.com/dbopxlpuy/image/upload/o_50/v1611365531/Bao/test_c6zrj6.png');
+
   background-size: cover;
   background-position: center;
   clip-path: polygon(0 0, 100% 0%, 100% 87%, 0% 100%);
@@ -41,15 +44,42 @@ header {
 }
 
 .heading {
-  position: absolute;
-  top: 40%;
-  left: 50%;
-  transform: translate(-50%, -50%);
   text-align: center;
-  z-index: 2;
+
   color: #fff;
 }
+.overlay {
+  position: absolute;
+  z-index: 0;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  background-color: #ee4c7d;
+}
+.heading-img {
+  z-index: 1;
+  position: absolute;
+  filter: blur(1px) brightness(0.6);
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.heading-box {
+  z-index: 2;
+  position: absolute;
+  padding: 50px;
+  border-radius: 10px;
+  top: 40%;
+  left: 50%;
+
+  transform: translate(-50%, -50%);
+}
 .header-btn {
+  z-index: 3;
   position: absolute;
   top: 80%;
   left: 50%;
