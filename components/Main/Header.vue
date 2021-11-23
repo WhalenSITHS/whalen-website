@@ -20,7 +20,12 @@ export default {}
 <style lang="scss">
 header {
   height: 100vh;
-  background-image: url('https://res.cloudinary.com/dbopxlpuy/image/upload/b_rgb:000000,f_auto,o_19/v1611365531/Bao/test_c6zrj6.png');
+  background-image: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.6)
+    ),
+    url('https://res.cloudinary.com/dbopxlpuy/image/upload/o_50/v1611365531/Bao/test_c6zrj6.png');
   background-size: cover;
   background-position: center;
   clip-path: polygon(0 0, 100% 0%, 100% 87%, 0% 100%);
