@@ -18,7 +18,7 @@ export default {}
 
 <style lang="scss">
 .desk {
-  background-color: #000;
+  background-color: var(--nav-background);
   width: 100%;
 
   margin: 0;

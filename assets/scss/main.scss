@@ -166,3 +166,65 @@ body {
   --header-btn: var(--white);
   --footer-icon: var(--white);
 }
+.nuxt {
+  --skills-sub: #012a35;
+  --nav-background: #012a35;
+  --background-primary: var(--black);
+  --skill-background: var(--light-black);
+  --card-background: #012a35;
+  --card-text: var(--white);
+  --background-secondary: var(--dark-grey);
+  --text-primary: var(--white);
+  --text-secondary: var(--black);
+  --student-text: var(--white);
+  --nav-line: var(--white);
+  --header-btn: var(--white);
+  --footer-icon: var(--white);
+}
+.nuxt-light {
+  --skills-sub: #012a35;
+  --nav-background: #012a35;
+  --background-primary: var(--off-white);
+  --skill-background: #fff;
+  --card-background: #012a35;
+  --card-text: var(--white);
+  --background-secondary: var(--dark-grey);
+  --text-primary: var(--black);
+  --text-secondary: #000;
+  --modal-background: var(--white);
+  --modal-text: var(--black);
+  --student-text: var(--white);
+  --nav-line: #393939;
+  --header-btn: var(--black);
+  --footer-icon: var(--light-black);
+}
+.nuxt-green {
+  --skills-sub: #001e26;
+  --nav-background: #001e26;
+  --background-primary: #012a35;
+  --skill-background: #fff;
+  --card-background: #001e26;
+  --card-text: var(--white);
+  --background-secondary: var(--dark-grey);
+  --text-primary: var(--white);
+  --text-secondary: var(--black);
+  --student-text: var(--white);
+  --nav-line: var(--white);
+  --header-btn: var(--white);
+  --footer-icon: var(--white);
+}
+.react {
+  --skills-sub: #61dafb;
+  --nav-background: #61dafb;
+  --background-primary: var(--black);
+  --skill-background: var(--light-black);
+  --card-background: #61dafb;
+  --card-text: black;
+  --background-secondary: var(--dark-grey);
+  --text-primary: var(--white);
+  --text-secondary: var(--black);
+  --student-text: var(--white);
+  --nav-line: var(--white);
+  --header-btn: var(--white);
+  --footer-icon: var(--white);
+}
