@@ -86,6 +86,7 @@ export default {}
 .card-rule {
   width: 90%;
   margin: 2.5% auto;
+  color: var(--card-rule);
 }
 .about-icon {
   font-size: var(--h2);

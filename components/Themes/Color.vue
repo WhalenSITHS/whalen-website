@@ -16,6 +16,7 @@ export default {
 
 <style lang="scss">
 .theme-icon {
+  width: 30%;
   font-size: var(--h2);
   color: var(--text-primary);
   list-style: none;
