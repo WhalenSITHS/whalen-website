@@ -6,8 +6,6 @@
     <ThemesColor icon="cloud-moon" color="nuxt-dark" />
     <ThemesColor icon="car-crash" color="outrun" />
     <ThemesColor icon="circle" color="bubblegum" />
-    <ThemesColor icon="user-graduate" color="lucy-2022" />
-    <ThemesColor icon="user-graduate" color="knicks" />
   </main>
 </template>
 

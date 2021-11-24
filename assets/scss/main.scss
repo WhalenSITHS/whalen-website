@@ -184,6 +184,7 @@ body {
 }
 
 .nuxt-mode {
+  --header-overlay: #000;
   --skills-sub: #001e26;
   --nav-background: #001e26;
   --background-primary: #012a35;
@@ -218,7 +219,8 @@ body {
 .outrun-mode {
   //1E1238
   --skills-sub: #cd53ca;
-  --nav-background: #1e1238;
+  --header-overlay: #000;
+  --nav-background: #1f2a52;
   --background-primary: #1e1238;
   --skill-background: #000;
   --card-background: #1f2a52;
@@ -234,6 +236,7 @@ body {
   --card-rule: #e963a0;
 }
 .bubblegum-mode {
+  --header-overlay: rgba(238, 76, 125, 0.6);
   --skills-sub: #ee4c7d;
   --nav-background: #ee4c7d;
   --background-primary: #e3afbc;
@@ -249,39 +252,4 @@ body {
   --footer-icon: var(--white);
   --blog-card-background: #ee4c7d;
   --card-rule: #e3afbc;
-}
-.lucy-2022-mode {
-  --skills-sub: #46a29f;
-  --nav-background: #46a29f;
-  --background-primary: #0b0c10;
-  --skill-background: #000;
-  --card-background: #46a29f;
-  --card-text: var(--light-grey);
-  --background-secondary: var(--dark-grey);
-  --text-primary: var(--white);
-  --text-secondary: var(--black);
-  --student-text: var(--white);
-  --nav-line: var(--white);
-  --header-btn: var(--white);
-  --footer-icon: var(--white);
-  --blog-card-background: #46a29f;
-  --card-rule: #46a29f;
-}
-
-.knicks-mode {
-  --skills-sub: #6bdaee;
-  --nav-background: #f79e02;
-  --background-primary: #f79e02;
-  --skill-background: #fff;
-  --card-background: #0074e1;
-  --card-text: #fff;
-  --background-secondary: var(--dark-grey);
-  --text-primary: var(--black);
-  --text-secondary: var(--black);
-  --student-text: var(--white);
-  --nav-line: var(--white);
-  --header-btn: var(--white);
-  --footer-icon: var(--white);
-  --blog-card-background: #f79e02;
-  --card-rule: #6bdaee;
 }
