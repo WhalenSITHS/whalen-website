@@ -4,8 +4,8 @@
       <div class="overlay"></div>
       <img
         class="heading-img"
-        src="https://res.cloudinary.com/dbopxlpuy/image/upload/o_100/v1611365531/Bao/test_c6zrj6.png"
-        alt=""
+        src="https://res.cloudinary.com/dbopxlpuy/image/upload/c_fit,f_auto,q_auto,w_1920/v1611365531/Bao/test_c6zrj6.png"
+        alt="Picture of Three Iphones"
       />
       <div class="heading-box">
         <h1>Michael Whalen</h1>
