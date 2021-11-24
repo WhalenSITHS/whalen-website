@@ -13,11 +13,11 @@
         <h4>Staten Island Technical High School</h4>
       </div>
     </div>
-    <button class="header-btn btn">
+    <!-- <button class="header-btn btn">
       <nuxt-link to="StudentWork" class="header-btn-link"
         >See Our Work</nuxt-link
       >
-    </button>
+    </button> -->
   </header>
 </template>
 
@@ -36,12 +36,12 @@ header {
     text-transform: uppercase;
   }
 }
-@include tablet {
+/* @include tablet {
   header {
     //background-position: center;
     background-image: url('https://res.cloudinary.com/dbopxlpuy/image/upload/b_rgb:000000,c_scale,f_auto,o_19,w_1920/v1611365531/Bao/test_c6zrj6.png');
   }
-}
+} */
 
 .heading {
   text-align: center;
@@ -61,7 +61,7 @@ header {
 .heading-img {
   z-index: 1;
   position: absolute;
-  filter: blur(0px) brightness(0.5);
+  filter: blur(0px) brightness(0.4);
   top: 0;
   left: 0;
   width: 100%;
