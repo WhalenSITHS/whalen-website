@@ -201,21 +201,6 @@ body {
   --card-rule: green;
   --blog-card-background: rgba(0, 30, 38, 1);
 }
-.react {
-  --skills-sub: #61dafb;
-  --nav-background: #61dafb;
-  --background-primary: var(--black);
-  --skill-background: var(--light-black);
-  --card-background: #61dafb;
-  --card-text: black;
-  --background-secondary: var(--dark-grey);
-  --text-primary: var(--white);
-  --text-secondary: var(--black);
-  --student-text: var(--white);
-  --nav-line: var(--white);
-  --header-btn: var(--white);
-  --footer-icon: var(--white);
-}
 .outrun-mode {
   //1E1238
   --skills-sub: #cd53ca;
@@ -253,3 +238,21 @@ body {
   --blog-card-background: #ee4c7d;
   --card-rule: #e3afbc;
 }
+.tailwind-mode {
+  --skills-sub: #22d3ee;
+  --nav-background: #22d3ee;
+  --background-primary: var(--black);
+  --skill-background: var(--light-black);
+  --card-background: #111827;
+  --card-text: #22d3ee;
+  --background-secondary: var(--dark-grey);
+  --text-primary: var(--white);
+  --text-secondary: var(--black);
+  --student-text: var(--white);
+  --nav-line: var(--white);
+  --header-btn: var(--white);
+  --footer-icon: var(--white);
+  --blog-card-background: #111827;
+}
+//12,10,32
+//223,133,255

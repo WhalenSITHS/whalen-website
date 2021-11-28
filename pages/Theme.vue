@@ -6,6 +6,7 @@
     <ThemesColor icon="cloud-moon" color="nuxt-dark" />
     <ThemesColor icon="car-crash" color="outrun" />
     <ThemesColor icon="circle" color="bubblegum" />
+    <ThemesColor icon="moon" color="tailwind" />
   </main>
 </template>
 
