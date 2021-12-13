@@ -4,12 +4,12 @@
     <div class="about-content">
       <div class="about-card">
         <span class="icon about-icon"><fa icon="low-vision" /></span>
-        <h3 class="about-card-header">Accessability</h3>
+        <h3 class="about-card-header">Accessibility</h3>
         <hr class="card-rule" />
         <p class="about-text-content">
-          Starting in 2020-2021, we have implemented a focus on accessability to
-          empower our students to consider all of our users and create accesible
-          content
+          Starting in 2020-2021, we have implemented a focus on accessibility to
+          empower our students to consider all of our users and create
+          accessible content
         </p>
       </div>
       <div class="about-card">
