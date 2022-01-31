@@ -5,8 +5,6 @@
     <ThemesColor icon="seedling" color="nuxt" />
     <ThemesColor icon="cloud-moon" color="nuxt-dark" />
     <ThemesColor icon="car-crash" color="outrun" />
-    <ThemesColor icon="circle" color="bubblegum" />
-    <ThemesColor icon="moon" color="tailwind" />
   </main>
 </template>
 
@@ -34,8 +32,20 @@ export default {
   height: auto;
   @include flex-row;
   flex-wrap: wrap;
-  width: 60vw;
+  width: 70vw;
   margin: 1rem auto;
+  align-items: center;
   justify-content: center;
+}
+@include laptop {
+  .theme-switcher {
+    width: 80vw;
+  }
+}
+@include tablet {
+  .theme-switcher {
+    width: 90vw;
+    flex-direction: column;
+  }
 }
 </style>
