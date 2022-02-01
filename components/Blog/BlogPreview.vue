@@ -76,7 +76,7 @@ export default {
   border-radius: 2rem;
   overflow: hidden;
   box-shadow: var(--level-2);
-  background-color: rgba(0, 0, 0, 0.6);
+  background-color: var(--blog-card-background);
   margin: 3.5rem auto;
   padding: 1rem;
 }

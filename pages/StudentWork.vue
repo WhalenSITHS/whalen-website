@@ -1,6 +1,25 @@
 <template>
   <section class="student-work-container section">
     <StudentCard
+      title="Fancy Time"
+      imgSrc="https://res.cloudinary.com/dbopxlpuy/image/upload/c_scale,f_auto,w_800/v1613933809/Fancytime/Screenshot_2022-01-24_at_18-53-29_Vite_App_ijsmt9"
+      altText="Fancy Time by Karis Ka"
+      techStack="Vite, JavaScript"
+      projectPage="Projects-FancyTime"
+    /><StudentCard
+      title="Scrappy Notes"
+      imgSrc="https://res.cloudinary.com/dbopxlpuy/image/upload/c_scale,f_auto,w_800/v1613933809/scrappy notes/scrappy_shot_shurde"
+      altText="Scrappy Notes By Daniel Briskman"
+      techStack="VueJS"
+      projectPage="Projects-Scrappy"
+    /><StudentCard
+      title="RPG Character Designer"
+      imgSrc="https://res.cloudinary.com/dbopxlpuy/image/upload/c_scale,f_auto,w_800/v1613933809/RPG Character/rpg_screen_agdbvj"
+      altText="RPG Character Designer Alston Chan"
+      techStack="VueJS"
+      projectPage="Projects-RPGC"
+    />
+    <StudentCard
       title="Escape Room"
       imgSrc="https://res.cloudinary.com/dbopxlpuy/image/upload/c_scale,f_auto,w_800/v1622764850/Escape%20Room/Screenshot_2021-06-03_escape-room_lt6ip6.png"
       altText="Escape Room Site Card"
