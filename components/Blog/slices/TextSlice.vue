@@ -12,8 +12,8 @@ export default {
 </script>
 
 <style lang="scss">
-p {
-  text-align: start;
+.textslice {
+  text-align: left;
 }
 p a,
 p a:link,
